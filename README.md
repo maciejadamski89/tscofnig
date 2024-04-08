@@ -1,2 +1,3 @@
 # tscofnig
-My custom Next.js tsconfig.json
+
+My custom `tsconfig.json` to work with `Next.js` projects.
