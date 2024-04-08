@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        /* Base Options: */
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "allowJs": true,
+        "target": "es5",
+        "resolveJsonModule": true,
+        "moduleDetection": "force",
+        "isolatedModules": true,
+
+        /* Strictness */
+        "strict": true,
+        "noUncheckedIndexedAccess": true,
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+
+        /* Module Resolution Options: */
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "jsx": "preserve",
+        "incremental": true,
+        "plugins": [{ "name": "next" }],
+        "baseUrl": ".",
+        "paths": { "@/*": ["./*"] }
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "stories/shared/test.stories.js"],
+    "exclude": ["node_modules"]
+}
